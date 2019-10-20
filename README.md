@@ -1,20 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Installed Homebrew: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+* Installed rvm: `\curl -sSL https://get.rvm.io | bash -s stable --ruby`
+* Installed Postgres: https://postgresapp.com
+* Installed ruby 2.6.3: `rvm install ruby-2.6.3`
+* Installed rails 6.0.0: `gem install rails -v '6.0.0'`
+* Installed pg gem: `gem install pg -v '1.1.4'`
+* Installed yarn: `brew install yarn`
+* Installed gnupg: `brew install gnupg`
+* Created app using `rails new style-quiz -d postgresql`
+* Setup DB: `rails db:setup`
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-Downloads and install Postgres
-Run `rails db:setup` (it may fail and tell you to run other commands)
-
+## TODO:
 * Database initialization
 
 * How to run the test suite
